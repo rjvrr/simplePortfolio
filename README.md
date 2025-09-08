@@ -24,9 +24,8 @@ This portfolio represents my journey from the serene hills of Pauri Garhwal, Utt
 
 ## 🚀 Live Demo
 
-Visit the live website: 
+Visit the live website: https://simple-portfolio-yijl.vercel.app/
 
-## 📋 Setup Instructions
 
 ### Prerequisites
 - Modern web browser (Chrome, Firefox, Safari, Edge)
