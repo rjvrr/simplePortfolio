@@ -9,18 +9,16 @@
 <body style="background-color: #0f1419;">
     <div class="navbar">
         <button class="name">Rajbir Singh</button>
-        <div class="nav-links">
-            <a href="#a1"><button class="a">About Me</button></a>
-            <a href="#b1"><button class ="b">Skills</button></a>
-            <a href="#c1"><button class="c">Projects</button></a>
-            <a href="#d1"><button class="d">Contact Me</button></a>
-        </div>
+        <a href="#a1"><button class="a">About Me</button></a>
+        <a href="#b1"><button class ="b">Skills</button></a>
+        <a href="#c1"><button class="c">Projects</button></a>
+        <a href="#d1"><button class="d">Contact Me</button></a>
     </div>
     <hr>
     <p class="me">Hi, I am Rajbir Singh!</p>
     <p class="q">"Everything you've ever wanted is sitting on the other side of fear." — George Addair</p>
-    <h2 class="intro" id="a1"><u>Know Me Better</u></h2>
-    <p class="intro1">Hi, I'm <u><b>Rajbir Singh</b></u> (also known as Rajveer Rawat) – 
+    <h2 class="intro" , id="a1"><u>Know Me Better</u></h2>
+    <p class="intro1" >Hi, I'm <u><b>Rajbir Singh</b></u> (also known as Rajveer Rawat) – 
         a student and lifelong learner with a deep passion for technology, design, and the art of digital self-expression.
         Born in the serene hills of <i><b>Pauri Garhwal, Uttarakhand</b></i>, I moved to the city when I was three, carrying with me the curiosity of mountain air 
         and the ambition of urban dreams. This blend of natural roots and city life has shaped my unique perspective on creativity and innovation.
@@ -28,8 +26,8 @@
         I've been captivated by <i><b>photography</b></i> – discovering how light, composition, and timing can tell stories that words sometimes can't capture.
         My journey is one driven by curiosity, vision, and heart – always seeking to learn, create, and connect through the digital canvas of our modern world. 🌱📸🌱
     </p>
-    <h1 class="school"><u>School Diaries</u></h1>  
-    <p class="s1">When I was in school, I used to hate everything about it – from the endless studies to those mind-numbingly boring lectures. 
+    <h1 class="school" ><u>School Diaries</u></h1>  
+    <p class = "s1">When I was in school, I used to hate everything about it – from the endless studies to those mind-numbingly boring lectures. 
         Every morning felt like a battle, and I would count down the hours until I could escape those classroom walls. 
         But now, looking back with clearer eyes, I realize how beautifully naive I was. 
         Those days I complained about were actually weaving together some of the most precious memories of my life.
@@ -39,28 +37,60 @@
         Those simple joys are locked in time now, and never gonna get those days back – which is exactly what makes them so precious. 📚💙
     </p>
 
-    <h2 class="skills" id="b1"><u>Technical Proficiencies</u></h2>
+
+    <h2 class="skills" , id="b1"><u>Technical Proficiencies</u></h2>
     <ul class="list">
-        <li><button class="java">Java (Intermediate)</button><p>I began my Java journey at the end of my second semester and have since developed a intermediate-level proficiency in the language. 
-        However, the journey never stops – there's always something new to discover, whether it's advanced design patterns, enterprise frameworks, 
-        or emerging Java features. This continuous learning mindset keeps me excited about building better solutions and expanding my technical horizons. 🚀
+            <li><button class = "java">Java (Intermediate)</button><p class="text1">I began my Java journey at the end of my second semester and have since developed a intermediate-level proficiency in the language. 
+            However, the journey never stops – there's always something new to discover, whether it's advanced design patterns, enterprise frameworks, 
+            or emerging Java features. This continuous learning mindset keeps me excited about building better solutions and expanding my technical horizons. 🚀
         </p></li>
-        <li><button class="front">Front-end (Basic)</button><p>I've recently embarked on my front-end development journey and am currently building a strong foundation in the core technologies -
+        <li><button class="front">Front-end (Basic) </button><p class="text2">I've recently embarked on my front-end development journey and am currently building a strong foundation in the core technologies -
              HTML, CSS, and JavaScript. While I'm still in the early stages of learning, I'm passionate about 
              creating responsive, user-friendly interfaces and understanding how design meets functionality.
             My plan is to accelerate my learning through hands-on experience - building real-world projects that challenge me to apply new concepts and deploy them 
             live. I believe in learning by doing, so each project will serve as both a learning opportunity and a showcase of my growing skills. 
             The goal is to evolve from basic implementations to more complex, interactive web applications that demonstrate both technical proficiency and
              creative problem-solving. 🚀</p></li>
-        <li><button class="management">Management Skills</button><p>My management abilities stem from a natural inclination to organize, lead, and collaborate effectively with diverse teams. 
+        <li><button class="management">Management Skills</button></li> <p class="text3">My management abilities stem from a natural inclination to organize, lead, and collaborate effectively with diverse teams. 
             I excel at strategic planning and breaking down complex projects into manageable tasks while maintaining clear timelines and deliverables.
-             Communication forms the cornerstone of my management approach – I believe in transparent dialogue and ensuring every team member feels heard and valued.</p></li>
+             Communication forms the cornerstone of my management approach – I believe in transparent dialogue and ensuring every team member feels heard and valued.</p>
     </ul>
+        <a href="https://www.linkedin.com/in/rajbir-singh-438802324/" target="_blank"><img class="linked" src="https://pluspng.com/img-png/linkedin-icon-vector-png-linkedin-icon-2160.png"> </a>
+        <a href="https://www.codechef.com/users/rjvrrr" target="_blank"><img class="cc" src="https://latestlogo.com/wp-content/uploads/2024/09/codechef.png"> </a>
+        
 
     <style>
+        .text1{
+            font-size: large;
+        }
+        .text2{
+            font-size: large;
+        }
+        .text3{
+            font-size: large;
+        }
+        
+        .cc{
+            height: 50px;
+            width: 120px;
+            transition: height 0.3s , width 0.3s;
+        }
+        .cc:hover{
+            height: 54px;
+            width: 130px;
+        }
+        .linked{
+    
+            height: 40px;
+            width: 40px;
+            transition: height 0.3s , width 0.3s;
+        }
+        .linked:hover{
+            height: 48px;
+            width: 48px;
+        }
         body {
             margin-top: 80px;
-            padding: 0 20px;
         }
         
         .navbar {
@@ -70,212 +100,260 @@
             width: 100%;
             background-color: #0f1419;
             z-index: 1000;
-            padding: 15px 20px;
+            padding: 15px 0;
             display: flex;
             align-items: center;
-            justify-content: space-between;
-            box-sizing: border-box;
-        }
-
-        .nav-links {
-            display: flex;
-            gap: 10px;
-            flex-wrap: wrap;
+            gap: 15px;
         }
         
-        .management, .front, .java {
+        .management{
             background-color: #22c55e;
-            color: white;
-            border: none;
-            padding: 10px 15px;
+            color:white;
+            border:none;
+            padding-top:10px;
+            padding-bottom:10px;
+            padding-left:7px;
+            padding-right:7px;
             transition: padding 0.25s;
             border-radius: 10px;
-            font-size: 16px;
+            font-size: larger;
             font-family: 'Inter', sans-serif;
             font-weight: 600;
         }
-        
-        .management:hover, .front:hover, .java:hover {
-            padding: 13px 18px;
+        .management:hover{
+            padding-top:13px;
+            padding-bottom: 13px;
+            padding-right:10px;
+            padding-left:10px;
         }
-        
-        .list {
-            font-size: 20px;
-            margin-left: 20px;
+        .front{
+            background-color: #22c55e;
+            color:white;
+            border:none;
+            padding-top:10px;
+            padding-bottom:10px;
+            padding-left:7px;
+            padding-right:7px;
+            transition: padding 0.25s;
+            border-radius: 10px;
+            font-size: larger;
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+        }
+        .front:hover{
+            padding-top:13px;
+            padding-bottom: 13px;
+            padding-right:10px;
+            padding-left:10px;
+        }
+        .java{
+            background-color: #22c55e;
+            color:white;
+            border:none;
+            padding-top:10px;
+            padding-bottom:10px;
+            padding-left:7px;
+            padding-right:7px;
+            transition: padding 0.25s;
+            border-radius: 10px;
+            font-size: larger;
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+        }
+        .java:hover{
+            padding-top:13px;
+            padding-bottom: 13px;
+            padding-right:10px;
+            padding-left:10px;
+        }
+        .list{
+            font-size: 25px;
+            margin-left: 200px;
             color: #e2e8f0;   
             font-family: 'Inter', sans-serif;
-            padding-right: 20px;
         }
-        
-        .skills {
+        .skills{
             text-align: center;
-            font-size: 3rem;
-            margin-top: 100px;
+            font-size: 60px;
+            text-align: center;
+            margin-top: 280px;
             font-family: 'JetBrains Mono', monospace;
             color: #f1f5f9;
         }
-        
-        .s1, .intro1 {
-            font-size: 18px;
-            margin: 0 20px;
+        .s1{
+            text-align: center;
+            font-size: 20px;
+            margin-left: 150px;
+            margin-right: 150px ;
             color: #e2e8f0;
             font-family: 'Inter', sans-serif;
-            line-height: 1.6;
         }
-        
-        .school {
+        .school{
             text-align: center;
             color: #e2e8f0;
             font-family: 'JetBrains Mono', monospace;
-            font-size: 2.5rem;
         }
-        
-        .intro {
-            font-size: 3rem;
+        .intro1{
+            font-size: 20px;
+            margin-left: 150px;
+            margin-right: 150px ;
+            color: #e2e8f0;
+            font-family: 'Inter', sans-serif;
+        }
+        .intro{
+            font-size: 60px;
             text-align: center;
-            margin-top: 100px;
+            margin-top: 280px;
             font-family: 'JetBrains Mono', monospace;
             color: #f1f5f9;
         }
-        
-        .q {
+        .q{
             font-family: 'Inter', sans-serif;
+            vertical-align:top;
             color: #94a3b8;
-            margin: 0 20px;
+            margin-left: 10px;
             font-style: italic;
-            font-size: 18px;
+            font-size: larger;
         }
-        
-        .me {
+        .me{
             margin-top: 120px;
-            font-size: 4rem;
-            margin-left: 20px;
-            margin-right: 20px;
+            font-size: 90px;
+            margin-left: 10px;
+            margin-right: 10px;
             font-family: 'Inter', sans-serif;
             font-weight: 700;
             color: #f8fafc;
-            line-height: 1.2;
         }
-        
-        .name {
+        .name{
             background-color: #0f1419;
             color: #06b6d4;
             border: none;
-            font-size: 1.5rem;
+            font-size: xx-large;
             font-family: 'JetBrains Mono', monospace;
             font-weight: 600;
-            cursor: pointer;
+            cursor:pointer;   
+            width: 140px;    
         }
-        
-        .name:hover {
-            transform: scale(0.95);
+        .name:hover{
+            font-size: 30px;
+            transform: scale(0.9);
             transition: transform 0.2s;
             color: #0891b2;
         }
-        
-        .a, .b, .c, .d {
-            font-size: 16px;
+        .name, .a, .b, .c, .d {
+            vertical-align: top;
+        }
+
+        .a{
+            font-size: large;
+            margin-left: 500px;
             background-color: #1e40af;
             color: #ffffff;
-            padding: 8px 12px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 7px;
+            padding-bottom: 7px;
             border: none;
             border-radius: 8px;
-            cursor: pointer;
+            cursor:pointer;
+            margin-right: 8px;
             font-family: 'Inter', sans-serif;
             font-weight: 600;
-            transition: all 0.3s;
+            transition: background-color 0.35s,color 0.35s , padding 0.2s;
         }
-        
-        .a:hover, .b:hover, .c:hover, .d:hover {
+        .a:hover{
             background-color: #1d4ed8;
-            padding: 10px 15px;
+            padding-left: 12px;
+            padding-right: 12px;
+            padding-top: 9px;
+            padding-bottom: 9px;
         }
-        
-        .a:active, .b:active, .c:active, .d:active {
+        .a:active{
             opacity: 0.7;
         }
 
-        /* Mobile Responsive Styles */
-        @media (max-width: 768px) {
-            .navbar {
-                flex-direction: column;
-                padding: 10px;
-                gap: 15px;
-            }
-
-            .nav-links {
-                justify-content: center;
-            }
-            
-            .me {
-                font-size: 2.5rem;
-                margin-top: 160px;
-                text-align: center;
-            }
-            
-            .intro, .skills {
-                font-size: 2rem;
-                margin-top: 60px;
-            }
-            
-            .school {
-                font-size: 1.8rem;
-            }
-            
-            .s1, .intro1 {
-                font-size: 16px;
-                margin: 0 10px;
-                text-align: justify;
-            }
-            
-            .q {
-                font-size: 16px;
-                text-align: center;
-                margin: 20px 10px;
-            }
-            
-            .list {
-                margin-left: 10px;
-                font-size: 16px;
-                padding-right: 10px;
-            }
-            
-            body {
-                margin-top: 140px;
-                padding: 0 10px;
-            }
+        .b{
+            margin-left: 10px;
+            font-size: large;
+            background-color: #1e40af;
+            color: #ffffff;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            border: none;
+            border-radius: 8px;
+            cursor:pointer;
+            margin-right: 8px;
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            transition: background-color 0.35s,color 0.35s , padding 0.2s;
+        }
+        .b:hover{
+            background-color: #1d4ed8;
+            padding-left: 12px;
+            padding-right: 12px;
+            padding-top: 9px;
+            padding-bottom: 9px;
+        }
+        .b:active{
+            opacity: 0.7;
         }
 
-        @media (max-width: 480px) {
-            .nav-links {
-                flex-direction: column;
-                width: 100%;
-            }
-            
-            .a, .b, .c, .d {
-                width: 100%;
-                margin: 2px 0;
-            }
-            
-            .me {
-                font-size: 2rem;
-            }
-            
-            .intro, .skills {
-                font-size: 1.5rem;
-            }
-            
-            .school {
-                font-size: 1.4rem;
-            }
-            
-            .name {
-                font-size: 1.2rem;
-            }
-            
-            body {
-                margin-top: 200px;
-            }
+        .c{
+            margin-left: 10px;
+            font-size: large;
+            background-color: #1e40af;
+            color: #ffffff;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            border: none;
+            border-radius: 8px;
+            cursor:pointer;
+            margin-right: 8px;
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            transition: background-color 0.35s,color 0.35s , padding 0.2s;
+        }
+        .c:hover{
+            background-color: #1d4ed8;
+            padding-left: 12px;
+            padding-right: 12px;
+            padding-top: 9px;
+            padding-bottom: 9px;
+        }
+        .c:active{
+            opacity: 0.7;
+        }
+        
+        .d{
+            margin-left: 10px;
+            font-size: large;
+            background-color: #1e40af;
+            color: #ffffff;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            border: none;
+            border-radius: 8px;
+            cursor:pointer;
+            margin-right: 8px;
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            transition: background-color 0.35s,color 0.35s , padding 0.2s;
+        }
+        .d:hover{
+            background-color: #1d4ed8;
+            padding-left: 12px;
+            padding-right: 12px;
+            padding-top: 9px;
+            padding-bottom: 9px;
+        }
+        .d:active{
+            opacity: 0.7;
         }
     </style>
 </body>
